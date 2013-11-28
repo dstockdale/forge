@@ -5,13 +5,13 @@ require 'forge/version'
 
 Gem::Specification.new do |spec|
   spec.name = "forge"
-  spec.version = "0.5.0"
+  spec.version = Forge::VERSION
 
   spec.authors = ["Andy Adams", "Drew Strojny", "Matt Button"]
   spec.date = "2012-10-02"
   spec.description = "A toolkit for bootstrapping and developing WordPress themes."
   spec.email = "aadams@jestro.com"
-  spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.executables = ['forge']
   spec.extra_rdoc_files = [
     "LICENSE",
     "README.md"
