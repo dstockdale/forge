@@ -1,9 +1,8 @@
+require 'json'
 module Forge
   # Reads/Writes a configuration file in the user's home directory
   #
   class Config
-
-    @config
 
     attr_accessor :config
 
