@@ -30,8 +30,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "compass", "~> 0.12.2"
   spec.add_runtime_dependency 'rack', '~> 1.3.5'
   spec.add_runtime_dependency "guard-livereload", "~> 2.0.1"
-  spec.add_runtime_dependency "less", "~> 2.2.2"
-  spec.add_runtime_dependency "rb-fsevent", "~> 0.9.1"
+  spec.add_runtime_dependency "therubyracer", "~> 0.11.0"
+  spec.add_runtime_dependency "less", "~> 2.4.0"
+  spec.add_runtime_dependency "rb-fsevent", "~> 0.9.3"
   spec.add_runtime_dependency "yui-compressor", "~> 0.9.6"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 2.14.1"
